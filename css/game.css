@@ -1,0 +1,87 @@
+button {
+    border-radius: 100%;
+    border: 0px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.display {
+    margin: 20px;
+}
+
+.display_head {
+    background-color: #D9D9D9;
+    padding: 8px;
+    display: flex;
+}
+
+.red_btn {
+    background-color: #FC625A;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.yellow_btn {
+    background-color: #FABF2E;
+    margin-right: 5px;
+}
+
+.green_btn {
+    background-color: #26CB42;
+    margin-right: 220px;
+}
+
+.display_body {
+    height: 300px;
+    background-color: #020509;
+    cursor: text;
+}
+
+.word {
+    padding: 20px;
+    font-size: 3.5rem;
+    color: #3DFC2A;
+    font-family: "Trebuchet MS";
+}
+
+.mean {
+    padding-top: 80px;
+    font-size: 1.5em;
+    color: white;
+}
+
+span {
+    transition: all 300ms 0s ease;
+}
+
+.changeColor {
+    font-size: 0.5em;
+    color: white;
+}
+
+.buruburu {
+    display: inline-block;
+    animation: hurueru .1s infinite;
+}
+
+@keyframes hurueru {
+    0% {
+        transform: translate(0px, 0px) rotateZ(0deg)
+    }
+
+    25% {
+        transform: translate(2px, 2px) rotateZ(1deg)
+    }
+
+    50% {
+        transform: translate(0px, 2px) rotateZ(0deg)
+    }
+
+    75% {
+        transform: translate(2px, 0px) rotateZ(-1deg)
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotateZ(0deg)
+    }
+}
